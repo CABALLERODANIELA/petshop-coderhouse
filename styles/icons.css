@@ -1,0 +1,192 @@
+.fb-icon {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(1.6);
+    width: 20px;
+    height: 20px;
+    color: #37ff8b;
+    margin-left: 28px !important;
+    transition: transform 0.4s ease-in-out;
+}
+.fb-icon:hover{
+    transform: scale(2);
+}
+.fb-icon::after,
+.fb-icon::before {
+    content: "";
+    display: block;
+    position: absolute;
+    box-sizing: border-box
+}
+.fb-icon::before {
+    width: 8px;
+    height: 20px;
+    border-left: 4px solid;
+    border-top: 4px solid;
+    border-top-left-radius: 5px;
+    left: 6px
+}
+.fb-icon::after {
+    width: 10px;
+    height: 4px;
+    background: currentColor;
+    top: 7px;
+    left: 4px;
+    transform: skew(-5deg)
+}
+
+.mail-icon,
+.mail-icon::after {
+    display: block;
+    box-sizing: border-box;
+    height: 14px;
+    border: 2px solid
+}
+.mail-icon {
+    overflow: hidden;
+    transform: scale(2);
+    position: relative;
+    width: 18px;
+    border-radius: 2px;
+    color: #37ff8b;
+    transition: transform 0.4s ease-in-out;
+}
+.mail-icon:hover{
+    transform: scale(2.4);
+}
+.mail-icon::after {
+    content: "";
+    position: absolute;
+    border-radius: 3px;
+    width: 14px;
+    transform: rotate(-45deg);
+    bottom: 3px;
+    left: 0
+}
+
+.map-icon {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: rotate(45deg) scale(1.6);
+    width: 18px;
+    height: 18px;
+    border-radius: 100% 100% 0 100%;
+    border: 2px solid;
+    margin-top: 14px !important;
+    color: #37ff8b;
+    margin: 19 0 20 0;
+    transition: transform 0.4s ease-in-out;
+}
+.map-icon:hover{
+    transform: rotate(45deg) scale(2);
+}
+
+.map-icon::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border: 2px solid;
+    top: 3px;
+    left: 3px;
+    border-radius: 40px
+}
+
+.shoppingCart-icon {
+    display: block;
+    box-sizing: border-box;
+    position: relative;
+    transform: scale(1.5);
+    width: 20px;
+    height: 21px;
+    background:
+    linear-gradient(
+    to left,currentColor 12px,
+    transparent 0)
+    no-repeat -1px 6px/18px 2px,
+    linear-gradient(
+    to left,currentColor 12px,
+    transparent 0)
+    no-repeat 6px 14px/11px 2px,
+    linear-gradient(
+    to left,currentColor 12px,
+    transparent 0)
+    no-repeat 0 2px/4px 2px,
+    radial-gradient(
+    circle,currentColor 60%,
+    transparent 40%)
+    no-repeat 12px 17px/4px 4px,
+    radial-gradient(
+    circle,currentColor 60%,
+    transparent 40%)
+    no-repeat 6px 17px/4px 4px;
+    color: #37ff8b;
+    margin: 19 0 20 0;
+    transition: transform 0.4s ease-in-out;
+}
+.shoppingCart-icon:hover{
+    transform: scale(1.5) rotate(420deg);
+}
+
+.shoppingCart-icon::after,
+.shoppingCart-icon::before {
+    content: "";
+    display: block;
+    position: absolute;
+    box-sizing: border-box;
+    width: 2px;
+    height: 14px;
+    background: currentColor;
+    top: 2px;
+    left: 4px;
+    transform: skew(12deg)
+}
+
+.shoppingCart-icon::after {
+    height: 10px;
+    top: 6px;
+    left: 16px;
+    transform: skew(-12deg)
+} 
+
+.profile-icon,
+.profile-icon::after,
+.profile-icon::before {
+    display: block;
+    box-sizing: border-box;
+    border: 2px solid;
+    border-radius: 100px;
+}
+.profile-icon {
+    overflow: hidden;
+    transform: scale(1.5);
+    width: 22px;
+    height: 22px;
+    position: relative;
+    color: #37ff8b;
+    margin: 20 0 20 0;
+    transition: transform 0.4s ease-in-out;
+}
+.profile-icon:hover{
+    transform: scale(1.5) rotate(540deg);
+}
+.profile-icon::after,
+.profile-icon::before {
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: 5px;
+    width: 8px;
+    height: 8px;
+}
+.profile-icon::after {
+    border-radius: 200px;
+    top: 11px;
+    left: 0px;
+    width: 18px;
+    height: 18px;
+}

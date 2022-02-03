@@ -1,0 +1,17 @@
+main h1{
+    color: #37ff8b;
+    margin-bottom: 42px;
+}
+
+main video{
+    width: 100%;
+    height: 70vh;
+    margin-left: 20px;
+    margin-bottom: 36px;
+}
+
+main p{
+    color: #37ff8b;
+    font-weight: bold;
+    margin-left: 25px;
+}
