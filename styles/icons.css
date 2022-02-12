@@ -7,10 +7,6 @@
     height: 20px;
     color: #37ff8b;
     margin-left: 28px !important;
-    transition: transform 0.4s ease-in-out;
-}
-.fb-icon:hover{
-    transform: scale(2);
 }
 .fb-icon::after,
 .fb-icon::before {
@@ -50,10 +46,6 @@
     width: 18px;
     border-radius: 2px;
     color: #37ff8b;
-    transition: transform 0.4s ease-in-out;
-}
-.mail-icon:hover{
-    transform: scale(2.4);
 }
 .mail-icon::after {
     content: "";
@@ -76,13 +68,7 @@
     border: 2px solid;
     margin-top: 14px !important;
     color: #37ff8b;
-    margin: 19 0 20 0;
-    transition: transform 0.4s ease-in-out;
 }
-.map-icon:hover{
-    transform: rotate(45deg) scale(2);
-}
-
 .map-icon::before {
     content: "";
     display: block;
@@ -126,10 +112,6 @@
     no-repeat 6px 17px/4px 4px;
     color: #37ff8b;
     margin: 19 0 20 0;
-    transition: transform 0.4s ease-in-out;
-}
-.shoppingCart-icon:hover{
-    transform: scale(1.5) rotate(420deg);
 }
 
 .shoppingCart-icon::after,
@@ -169,10 +151,6 @@
     position: relative;
     color: #37ff8b;
     margin: 20 0 20 0;
-    transition: transform 0.4s ease-in-out;
-}
-.profile-icon:hover{
-    transform: scale(1.5) rotate(540deg);
 }
 .profile-icon::after,
 .profile-icon::before {

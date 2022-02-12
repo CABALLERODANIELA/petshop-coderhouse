@@ -11,7 +11,6 @@ body {
   margin: 0 10vw;
 }
 
-/* <Media Queries> */
 /* Tablet Query */
 @media (max-width: 768px) {
   .header__subsection {
@@ -24,12 +23,12 @@ body {
     width: 134px;
     height: 46px;
   }
-  input::placeholder {
-    font-size: 10px !important;
-  }
-  .header__subsection-buttons-register button {
+  input.header__subsection-search::placeholder {
     font-size: 10px;
-    width: 80px !important;
+  }
+  .header__subsection-buttons a.header__subsection-buttons-register button {
+    font-size: 10px;
+    width: 80px;
     margin-left: 20px;
   }
 }
@@ -41,7 +40,6 @@ body {
     width: 62%;
   }
 }
-/* </Media Queries> */
 
 .header {
   margin-bottom: 32px;
@@ -60,24 +58,6 @@ body {
 .header__title a {
   text-decoration: none;
 }
-
-.header__title {
-  animation-duration: 1.4s;
-  animation-name: growUpAndDown;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-}
-
-@keyframes growUpAndDown {
-  from {
-    transform: scale(1);
-  }
-
-  to {
-    transform: scale(1.5);
-  }
-}
-
 
 .header__subsection {
   display: grid;
@@ -128,12 +108,6 @@ body {
   border-radius: 10px;
   font-weight: bold;
   color: darkgreen;
-  cursor: pointer;
-  transition: transform 0.4s ease-in-out;
-}
-
-.header__subsection-buttons-register button:hover {
-  transform: scale(1.1);
 }
 
 .navigator {
@@ -164,7 +138,6 @@ body {
   border: 1px solid black;
   text-align: center;
   margin: 0 8px;
-  transition: background-color 0.3s ease-out;
 }
 
 .navigator__list:hover {
