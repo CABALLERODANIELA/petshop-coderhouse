@@ -1,68 +1,86 @@
 <html lang="en" translate="no">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./images/pawprint.png">
     <title>Pet Shop Pichichos - Accesorios</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="styles/commons.css" />
     <link rel="stylesheet" href="styles/accesorios.css" />
     <link rel="stylesheet" href="styles/icons.css" />
 </head>
+
 <body>
     <header class="header">
-        <h1 class="header__title"><a href="./index.html">Pet Shop Pichichos</a></h1>
-        <div class="header__subsection">
-            <input class="header__subsection-search" type="text" placeholder="¿Qué estás buscando?" />
-            <h2 class="header__subsection-subtitle">
-                Lo mejor para el cuidado de tu mascota
-            </h2>
-            <div class="header__subsection-buttons">
-                <a class="header__subsection-buttons-register" href="www.registrate.com">
-                    <button>Registrate</button>
-                </a>
-                <a class="header__subsection-buttons-img" href="www.usuario.com">
-                    <div class="profile-icon"></div>
-                </a>
-                <a class="header__subsection-buttons-img" href="www.usuario.com">
-                    <div class="shoppingCart-icon"></div>
+
+        <div class="card w-100 mb-4 mt-3 bg-pichichos">
+            <div class="card-body">
+                <a class="header__title-anchor" href="./index.html">
+                    <h1 class="text-pichichos"> Pet Shop Pichichos </h1>
                 </a>
             </div>
         </div>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-pichichos">
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="/Index.html">Página principal</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/alimentos.html">Alimentos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="/accesorios.html">Accesorios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./turnos.html">Turnos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./nosotros.html">Nosotros</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="¿Qué estas buscando?"
+                            aria-label="Search">
+                        <button class="btn btn-outline-warning-bold" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
     </header>
-    <nav class="navigator">
-        <ul class="navigator__unorderlist">
-            <a href="./alimentos.html"> <li class="navigator__list">Alimentos</li> </a>
-            <a href="./accesorios.html"> <li class="navigator__list--active">Accesorios</li> </a>
-            <a href="./turnos.html"> <li class="navigator__list"> Turnos </li></a>
-            <a href="./nosotros.html"> <li class="navigator__list"> Nosotros</li></a>
-        </ul>
-    </nav>
+
     <main>
-        <section class="accessoriesSection">
+        <section class="accessoriesSection card w-100 mt-3 pt-5 bg-pichichos">
             <div class="accessoriesSection__text">
                 <h2 class="accessoriesSection__title">Accesorios</h2>
                 <ul class="accessoriesSection__list">
                     <h3>Aves</h3>
                     <ol>
-                        <li>Jaulas</li>   
+                        <li>Jaulas</li>
                         <li>Área de juegospara pájaros</li>
                         <li>Comedero</li>
                     </ol>
                     <h3>Gatos</h3>
                     <ol>
-                        <li>Rascador</li>   
+                        <li>Rascador</li>
                         <li>Cama para gatos</li>
                         <li>Caja sanitaria</li>
                     </ol>
                     <h3>Perros</h3>
                     <ol>
-                        <li>Cuchas</li>   
+                        <li>Cuchas</li>
                         <li>Cama para perros</li>
                         <li>Correas</li>
                     </ol>
                     <h3>Roedores</h3>
                     <ol>
-                        <li>Terrario para hámster</li>   
+                        <li>Terrario para hámster</li>
                         <li>Esfera para roedores</li>
                         <li>Arnés para hámster</li>
                     </ol>
@@ -81,16 +99,26 @@
             </div>
         </section>
     </main>
-    <footer class="footer">
-        <a class="footer__link" href="www.gmail.com/">
-            <div class="mail-icon"></div>
-        </a>
-        <a class="footer__link" href="www.facebook.com">
-            <div class="fb-icon"></div>
-        </a>
-        <a class="footer__link" href="www.googlemaps.com">
-            <div class="map-icon"></div>
-        </a>
-    </footer>
+
+    <footer >
+        <div class="card w-100 mb-4 mt-3 bg-pichichos">
+          <div class="card-body footer">
+            <a class="footer__link" href="www.gmail.com/">
+              <div class="mail-icon"></div>
+            </a>
+            <a class="footer__link" href="www.facebook.com">
+              <div class="fb-icon"></div>
+            </a>
+            <a class="footer__link" href="www.googlemaps.com">
+              <div class="map-icon"></div>
+            </a>
+          </div>
+        </div>
+      </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>

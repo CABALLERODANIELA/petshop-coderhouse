@@ -12,16 +12,16 @@
 
 .foodSection__text{
     grid-area: text;
-    color: #37ff8b;
+    color: white;
 }
 
 .foodSection__title{
-    color: #37ff8b;
+    color: white;
     margin-bottom: 20px;
 }
 
 .foodSection__list{
-    color: #37ff8b;
+    color: white;
     margin-left: 42px;
 }
 

@@ -12,16 +12,16 @@
 
 .accessoriesSection__text{
     grid-area: text;
-    color: #37ff8b;
+    color: white;
 }
 
 .accessoriesSection__title{
-    color: #37ff8b;
+    color: white;
     margin-bottom: 20px;
 }
 
 .accessoriesSection__list{
-    color: #37ff8b;
+    color: white;
     margin-left: 42px;
 }
 

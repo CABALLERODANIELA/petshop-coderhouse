@@ -1,5 +1,5 @@
 main p {
-    color: #37ff8b;
+    color: white;
     font-weight: bold;
     margin-left: 25px;
     background: rgba(0,0,0, 0.5);
@@ -58,17 +58,17 @@ main p {
 }
 .calendar__picture > h2 {
     margin: 0;
-    background: rgba(0,0,0, 0.5) !important;
-    color: lightgreen !important;
-    width: fit-content !important;
+    background: rgba(0,0,0, 0.5);
+    color: white;
+    width: fit-content;
 }
 
 .calendar__picture > h3{
     margin: 0;
     font-weight: 500;
-    background: rgba(0,0,0, 0.5) !important;
-    color: lightgreen !important;
-    width: fit-content !important;
+    background: rgba(0,0,0, 0.5);
+    color: white;
+    width: fit-content;
 }
 
 .calendar__date {

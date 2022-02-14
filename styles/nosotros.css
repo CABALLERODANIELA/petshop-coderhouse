@@ -1,7 +1,4 @@
-main h1{
-    color: #37ff8b;
-    margin-bottom: 42px;
-}
+
 
 main video{
     width: 100%;
@@ -11,7 +8,7 @@ main video{
 }
 
 main p{
-    color: #37ff8b;
+    color: white;
     font-weight: bold;
     margin-left: 25px;
 }

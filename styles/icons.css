@@ -5,7 +5,7 @@
     transform: scale(1.6);
     width: 20px;
     height: 20px;
-    color: #37ff8b;
+    color: #c07f1b;
     margin-left: 28px !important;
 }
 .fb-icon::after,
@@ -45,7 +45,7 @@
     position: relative;
     width: 18px;
     border-radius: 2px;
-    color: #37ff8b;
+    color: #c07f1b;
 }
 .mail-icon::after {
     content: "";
@@ -67,7 +67,7 @@
     border-radius: 100% 100% 0 100%;
     border: 2px solid;
     margin-top: 14px !important;
-    color: #37ff8b;
+    color: #c07f1b;
 }
 .map-icon::before {
     content: "";
@@ -110,7 +110,7 @@
     circle,currentColor 60%,
     transparent 40%)
     no-repeat 6px 17px/4px 4px;
-    color: #37ff8b;
+    color: #c07f1b;
     margin: 19 0 20 0;
 }
 
@@ -149,7 +149,7 @@
     width: 22px;
     height: 22px;
     position: relative;
-    color: #37ff8b;
+    color: #c07f1b;
     margin: 20 0 20 0;
 }
 .profile-icon::after,

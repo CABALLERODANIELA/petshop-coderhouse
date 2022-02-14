@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./images/pawprint.png">
     <title>Pet Shop Pichichos - Turnos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="styles/commons.css" />
     <link rel="stylesheet" href="styles/turnos.css" />
     <link rel="stylesheet" href="styles/icons.css" />
@@ -12,108 +14,87 @@
 
 <body>
     <header class="header">
-        <h1 class="header__title"><a  href="./index.html">Pet Shop Pichichos</a></h1>
-        <div class="header__subsection">
-            <input class="header__subsection-search" type="text" placeholder="¿Qué estás buscando?" />
-            <h2 class="header__subsection-subtitle">
-                Lo mejor para el cuidado de tu mascota
-            </h2>
-            <div class="header__subsection-buttons">
-                <a class="header__subsection-buttons-register" href="www.registrate.com">
-                    <button>Registrate</button>
-                </a>
-                <a class="header__subsection-buttons-img" href="www.usuario.com">
-                    <div class="profile-icon"></div>
-                </a>
-                <a class="header__subsection-buttons-img" href="www.usuario.com">
-                    <div class="shoppingCart-icon"></div>
-                </a>
-            </div>
+
+        <div class="card w-100 mb-4 mt-3 bg-pichichos">
+          <div class="card-body">
+            <a class="header__title-anchor" href="./index.html">
+              <h1 class="text-pichichos"> Pet Shop Pichichos </h1>
+            </a>
+          </div>
         </div>
-    </header>
-    <nav class="navigator">
-        <ul class="navigator__unorderlist">
-            <a href="./alimentos.html"> <li class="navigator__list">Alimentos</li> </a>
-            <a href="./accesorios.html"> <li class="navigator__list">Accesorios</li> </a>
-            <a href="./turnos.html"> <li class="navigator__list--active"> Turnos </li></a>
-            <a href="./nosotros.html"> <li class="navigator__list"> Nosotros</li></a>
-        </ul>
-    </nav>
+  
+        <nav class="navbar navbar-expand-lg navbar-light bg-pichichos">
+          <div class="container-fluid"> 
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="/Index.html">Página principal</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/alimentos.html">Alimentos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/accesorios.html">Accesorios</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="./turnos.html">Turnos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./nosotros.html">Nosotros</a>
+                </li>
+              </ul>
+              <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="¿Qué estas buscando?" aria-label="Search">
+                <button class="btn btn-outline-warning-bold" type="submit">Buscar</button>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+      </header>
+
     <main>
-        <h1> Turnos </h1>
-        <div class="calendarContainer">
-            <div class="calendar">
-                <div class="calendar__picture">
-                    <h2>Martes 18</h2>
-                    <h3>Enero</h3>
-                </div>
-                <div class="calendar__date">
-                    <div class="calendar__day">L</div>
-                    <div class="calendar__day">M</div>
-                    <div class="calendar__day">Mi</div>
-                    <div class="calendar__day">J</div>
-                    <div class="calendar__day">V</div>
-                    <div class="calendar__day">S</div>
-                    <div class="calendar__day">D</div>
-                    <div class="calendar__number"></div>
-                    <div class="calendar__number"></div>
-                    <div class="calendar__number"></div>
-                    <div class="calendar__number">1</div>
-                    <div class="calendar__number">2</div>
-                    <div class="calendar__number">3</div>
-                    <div class="calendar__number">4</div>
-                    <div class="calendar__number">5</div>
-                    <div class="calendar__number">6</div>
-                    <div class="calendar__number">7</div>
-                    <div class="calendar__number">8</div>
-                    <div class="calendar__number">9</div>
-                    <div class="calendar__number">10</div>
-                    <div class="calendar__number">11</div>
-                    <div class="calendar__number">12</div>
-                    <div class="calendar__number">13</div>
-                    <div class="calendar__number">14</div>
-                    <div class="calendar__number">15</div>
-                    <div class="calendar__number">16</div>
-                    <div class="calendar__number">17</div>
-                    <div class="calendar__number calendar__number--current">18</div>
-                    <div class="calendar__number">19</div>
-                    <div class="calendar__number">20</div>
-                    <div class="calendar__number">21</div>
-                    <div class="calendar__number">22</div>
-                    <div class="calendar__number">23</div>
-                    <div class="calendar__number">24</div>
-                    <div class="calendar__number">25</div>
-                    <div class="calendar__number">26</div>
-                    <div class="calendar__number">27</div>
-                    <div class="calendar__number">28</div>
-                    <div class="calendar__number">29</div>
-                    <div class="calendar__number">30</div>
+        <div class="card w-100 mb-4 mt-3 bg-pichichos">
+            <h1> Turnos </h1>
+            <div class="calendarContainer">
+                <div class="calendar">
+                    <div class="calendar__picture"></div>
+                    <div class="calendar__date">
+                        <input type="date" lang="es-ARG" />
+                    </div>
                 </div>
             </div>
+            <p>
+                Se habilitarán nuevos turnos de consulta clínica todos los días a las 10 de la mañana hasta el miércoles 1
+                de diciembre inclusive (para ser atendido el viernes 3 de diciembre). En caso de disponibilidad se
+                continuará ofreciendo diariamente el remanente de turnos hasta el miércoles 15 de diciembre teniendo en
+                consideración que en caso de ser necesario el paciente deberá continuar la atención o los estudios
+                complementarios en otra institución.
+                El día viernes 3 de diciembre se habilitará el remanente de turnos para estudios complementarios
+                (Cardiología, Laboratorio, Ecografía, Radiología, Histopatología).
+                Los turnos para cirugía y traumatología se encuentran agotados por el resto del año.
+                Por favor visite regularmente esta página web para novedades sobre la apertura en Febrero de 2022.
+            </p>
         </div>
-        <p>
-            Se habilitarán nuevos turnos de consulta clínica todos los días a las 10 de la mañana hasta el miércoles 1
-            de diciembre inclusive (para ser atendido el viernes 3 de diciembre). En caso de disponibilidad se
-            continuará ofreciendo diariamente el remanente de turnos hasta el miércoles 15 de diciembre teniendo en
-            consideración que en caso de ser necesario el paciente deberá continuar la atención o los estudios
-            complementarios en otra institución.
-            El día viernes 3 de diciembre se habilitará el remanente de turnos para estudios complementarios
-            (Cardiología, Laboratorio, Ecografía, Radiología, Histopatología).
-            Los turnos para cirugía y traumatología se encuentran agotados por el resto del año.
-            Por favor visite regularmente esta página web para novedades sobre la apertura en Febrero de 2022.
-        </p>
     </main>
-    <footer class="footer">
-        <a class="footer__link" href="www.gmail.com/">
-            <div class="mail-icon"></div>
-        </a>
-        <a class="footer__link" href="www.facebook.com">
-            <div class="fb-icon"></div>
-        </a>
-        <a class="footer__link" href="www.googlemaps.com">
-            <div class="map-icon"></div>
-        </a>
+
+    <footer>
+        <div class="card w-100 mb-4 mt-3 bg-pichichos">
+            <div class="card-body footer">
+                <a class="footer__link" href="www.gmail.com/">
+                    <div class="mail-icon"></div>
+                </a>
+                <a class="footer__link" href="www.facebook.com">
+                    <div class="fb-icon"></div>
+                </a>
+                <a class="footer__link" href="www.googlemaps.com">
+                    <div class="map-icon"></div>
+                </a>
+            </div>
+        </div>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 
 </html>
