@@ -1,0 +1,193 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; }
+
+body {
+  scroll-behavior: smooth;
+  background-color: #ff8a005e;
+  margin: 0 10vw; }
+
+.bg-pichichos {
+  background-color: #ff840585; }
+
+.btn-outline-warning-bold {
+  color: #fc8d2c;
+  border-color: #fc8d2c; }
+
+.btn-outline-warning-bold:hover {
+  color: #000;
+  background-color: #fc8d2c;
+  border-color: #fc8d2c; }
+
+/* Tablet Query */
+@media (max-width: 768px) {
+  .header__subsection {
+    align-items: center; }
+  .header__subsection-subtitle {
+    font-size: 16px; }
+  input {
+    width: 134px;
+    height: 46px; }
+  input::placeholder {
+    font-size: 10px !important; }
+  .header__subsection-buttons-register button {
+    font-size: 10px;
+    width: 80px !important;
+    margin-left: 20px; } }
+
+/* Desktop Query */
+@media (min-width: 769px) {
+  .header__subsection-buttons {
+    margin-left: 14vw;
+    width: 62%; } }
+
+.header {
+  margin-bottom: 32px; }
+
+.header__title-anchor {
+  color: #c07f1b;
+  font-size: 32px;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff; }
+
+.header__title-anchor h1 {
+  color: #c07f1b;
+  margin: 32px; }
+
+header
+.header__subsection {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-template-areas: "search subtitle buttons"; }
+
+.header__subsection-search {
+  grid-area: search;
+  display: inline;
+  width: fit-content;
+  text-align: center;
+  border: 2px solid #27c96a;
+  border-radius: 10px;
+  background-color: #c3ddc3; }
+
+.header__subsection-search::placeholder {
+  color: darkgreen;
+  font-weight: bold;
+  font-size: 12px;
+  background-color: #c3ddc3; }
+
+.header__subsection-subtitle {
+  grid-area: subtitle;
+  display: inline;
+  width: fit-content;
+  text-align: center;
+  color: #c07f1b; }
+
+.header__subsection-buttons {
+  grid-area: buttons;
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  align-items: center; }
+
+.header__subsection-buttons-register button {
+  background-color: #c07f1b;
+  width: 116px;
+  height: 32px;
+  border: 2px solid #c07f1b;
+  border-radius: 10px;
+  font-weight: bold;
+  color: darkgreen; }
+
+.navigator {
+  padding-bottom: 32px; }
+
+.navigator__unorderlist {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-self: center; }
+
+.navigator__unorderlist a {
+  color: black;
+  font-weight: bold;
+  text-decoration: none; }
+
+.navigator__list {
+  display: block;
+  width: 15vw;
+  background-color: #37ff8b;
+  height: 24px;
+  border-radius: 10px;
+  padding: 12px;
+  line-height: 0;
+  border: 1px solid black;
+  text-align: center;
+  margin: 0 8px; }
+
+.navigator__list:hover {
+  background-color: #27c96a;
+  text-decoration: none;
+  cursor: pointer; }
+
+.navigator__list a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold; }
+
+.navigator__list--active {
+  display: block;
+  width: 15vw;
+  height: 24px;
+  border-radius: 10px;
+  padding: 12px;
+  line-height: 0;
+  border: 1px solid black;
+  text-align: center;
+  margin: 0 8px;
+  background-color: #27c96a; }
+
+.navigator__list--active:hover {
+  background-color: #27c96a;
+  text-decoration: none;
+  cursor: pointer; }
+
+.navigator__list--active a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold; }
+
+.services-section__title,
+.promotion-section__title {
+  font-size: 24px; }
+
+.services-section__images,
+.promotion-section__images {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 24px 0; }
+
+.services-section__images img,
+.promotion-section__images img {
+  display: block;
+  width: 250px;
+  height: 250px;
+  border: 2px solid black;
+  margin: 0 24px; }
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  width: 80vw; }
+
+.footer__link div {
+  display: block;
+  margin: 20px 20px 40px 20px; }

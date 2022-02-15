@@ -1,0 +1,38 @@
+.foodSection {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-template-areas: "text images";
+  justify-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  &__text {
+    grid-area: text;
+    color: white;
+  }
+  &__title {
+    color: white;
+    margin-bottom: 20px;
+  }
+  &__list {
+    color: white;
+    margin-left: 42px;
+    h3 {
+      list-style: none;
+      margin-bottom: 6px;
+    }
+    ol {
+      margin-bottom: 20px;
+      list-style: circle;
+    }
+  }
+  &__images {
+    grid-area: images;
+    width: 465px;
+    img {
+      width: 150px;
+      height: 150px;
+    }
+  }
+}
