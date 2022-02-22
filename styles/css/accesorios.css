@@ -6,25 +6,35 @@
   grid-template-areas: "text images";
   justify-items: center;
   margin-top: 20px;
-  margin-bottom: 20px; }
-  .accessoriesSection__text {
-    grid-area: text;
-    color: white; }
-  .accessoriesSection__title {
-    color: white;
-    margin-bottom: 20px; }
-  .accessoriesSection__list {
-    color: white;
-    margin-left: 42px; }
-    .accessoriesSection__list h3 {
-      list-style: none;
-      margin-bottom: 6px; }
-    .accessoriesSection__list ol {
-      margin-bottom: 20px;
-      list-style: circle; }
-  .accessoriesSection__images {
-    grid-area: images;
-    width: 465px; }
-    .accessoriesSection__images img {
-      width: 150px;
-      height: 150px; }
+  margin-bottom: 20px;
+}
+.accessoriesSection__text {
+  grid-area: text;
+  color: white;
+}
+.accessoriesSection__title {
+  color: white;
+  margin-bottom: 20px;
+}
+.accessoriesSection__list {
+  color: white;
+  margin-left: 42px;
+}
+.accessoriesSection__list h3 {
+  list-style: none;
+  margin-bottom: 6px;
+}
+.accessoriesSection__list ol {
+  margin-bottom: 20px;
+  list-style: circle;
+}
+.accessoriesSection__images {
+  grid-area: images;
+  width: 465px;
+}
+.accessoriesSection__images img {
+  width: 150px;
+  height: 150px;
+}
+
+/*# sourceMappingURL=accesorios.css.map */

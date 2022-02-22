@@ -1,3 +1,19 @@
+@use "sass:map";
+
+$images-sizes: (
+  "regular": 150px,
+  "medium": 300px
+);
+
+@mixin getImageSize($image-size) {
+  width: map.get($images-sizes, $image-size);
+  height: map.get($images-sizes, $image-size);
+}
+
+.medium-image{
+  display: block;
+  @include getImageSize(map.get($images-sizes, "medium"));
+}
 
 .services-section,
 .promotion-section {
@@ -10,9 +26,7 @@
     justify-content: center;
     margin: 24px 0;
     img{
-      display: block;
-      width: 300px;
-      height: 300px;
+      @extend .medium-image;
       border: 2px solid #fc8d2c;
       margin: 0 24px;
     }
@@ -56,8 +70,7 @@
     &__images{
       flex-direction: column;
       img{
-        width: 300px;
-        height: 300px;
+        @extend .medium-image;
       }
     }
   }
@@ -68,6 +81,7 @@
 @media (min-width: 426px) and (max-width: 768px) {
   .services-section__images img,
   .promotion-section__images img {
+    display: block;
     width: 150px;
     height: 150px;
   }

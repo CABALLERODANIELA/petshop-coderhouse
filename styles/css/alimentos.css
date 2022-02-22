@@ -6,25 +6,35 @@
   grid-template-areas: "text images";
   justify-items: center;
   margin-top: 20px;
-  margin-bottom: 20px; }
-  .foodSection__text {
-    grid-area: text;
-    color: white; }
-  .foodSection__title {
-    color: white;
-    margin-bottom: 20px; }
-  .foodSection__list {
-    color: white;
-    margin-left: 42px; }
-    .foodSection__list h3 {
-      list-style: none;
-      margin-bottom: 6px; }
-    .foodSection__list ol {
-      margin-bottom: 20px;
-      list-style: circle; }
-  .foodSection__images {
-    grid-area: images;
-    width: 465px; }
-    .foodSection__images img {
-      width: 150px;
-      height: 150px; }
+  margin-bottom: 20px;
+}
+.foodSection__text {
+  grid-area: text;
+  color: white;
+}
+.foodSection__title {
+  color: white;
+  margin-bottom: 20px;
+}
+.foodSection__list {
+  color: white;
+  margin-left: 42px;
+}
+.foodSection__list h3 {
+  list-style: none;
+  margin-bottom: 6px;
+}
+.foodSection__list ol {
+  margin-bottom: 20px;
+  list-style: circle;
+}
+.foodSection__images {
+  grid-area: images;
+  width: 465px;
+}
+.foodSection__images img {
+  width: 150px;
+  height: 150px;
+}
+
+/*# sourceMappingURL=alimentos.css.map */

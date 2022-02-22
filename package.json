@@ -5,13 +5,14 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "node-sass styles/sass --output-style -o styles/css",
-    "watch": "nodemon -e scss -x \"npm run build\""
+    "build": "sass styles/sass:styles/css",
+    "watch": "nodemon -e sass -x \"npm run build\""
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "node-sass": "^7.0.1",
-    "nodemon": "^2.0.15"
+    "nodemon": "^2.0.15",
+    "sass": "^1.49.8"
   }
 }
